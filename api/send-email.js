@@ -79,7 +79,7 @@ export default async function handler(req, res) {
   <div class="divider"></div>
   <div class="cta">
     <p>No fluff questions. No BS. Just tell us about your brand and where you need firepower — and we'll tell you straight if we're the right fit.</p>
-    <a href="YOUR_FORM_URL_HERE" class="btn">COMPLETE THE FORM →</a>
+    <a href="https://crixstudio.com" class="btn">COMPLETE THE FORM →</a>
   </div>
   <div class="steps">
     <div class="steps-label">// WHAT HAPPENS NEXT</div>
@@ -217,7 +217,7 @@ export default async function handler(req, res) {
   const isStep1 = type === "step1";
 
   const emailPayload = {
-    from: "CRIX STUDIO <founder@crixstudio.com>", // ← replace with your verified Resend sender
+    from: "CRIX STUDIO <founder@crixstudio.com>",
     to: [email],
     subject: isStep1
       ? "Don't leave it half-done. — CRIX STUDIO"
